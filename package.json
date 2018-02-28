@@ -1,11 +1,15 @@
 {
   "name": "markdown-it-figure-caption",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "Convert img tag into figure with caption that can be themed.",
   "main": "index.js",
   "dependencies": {},
-  "devDependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  },
   "scripts": {
+    "start": "babel index.js -o dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Fang Jin",

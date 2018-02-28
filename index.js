@@ -1,5 +1,4 @@
-// Plugin
-function markdownItFigureCaption(md, config) {
+module.exports = function markdownItFigureCaption(md, config) {
   md.renderer.rules.image = function(tokens, idx, options, env, self) {
     config = config || {}
 
